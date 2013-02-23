@@ -1,0 +1,37 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+.top-section{
+	overflow: auto;
+}
+.top-section h1{
+	float: left;
+}
+.top-section a{
+	float: right;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: rgba(0,0,255,0.5);
+	border-radius: 20px;
+}
+nav a{
+	margin-right: 20px;
+	padding: 10px;
+	background-color: rgba(0,0,255,0.5);
+	border-radius: 10px;
+}
+.main{
+	overflow: auto;
+}
+.main section{
+	width: 700px;
+	margin-right: 20px;
+}
+.main aside{
+	width: 240px;
+}
+.main section, .main aside{
+	float: left;
+	text-align: justify;
+}
